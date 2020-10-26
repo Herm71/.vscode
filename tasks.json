@@ -2,9 +2,9 @@
   "version": "2.0.0",
   "tasks": [
     {
-      "label": "Run Lando",
+      "label": "Spin up Jekyll Docker",
       "type": "shell",
-      "command": "echo  -ne '\n' | lando start",
+      "command": "echo  -ne '\n' | docker-compose up",
       "presentation": {
         "focus": false,
         "panel": "shared",
